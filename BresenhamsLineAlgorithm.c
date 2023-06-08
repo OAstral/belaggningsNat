@@ -1,5 +1,3 @@
-/*#include <stdlib.h>*/
-
 
 unsigned long BresenhamsLineAlgorithm(double **line, unsigned long lineLength, unsigned int **Map2D, unsigned int resolution) {
   double dx = line[0][lineLength - 1] - line[0][0];
